@@ -67,6 +67,7 @@ h2 {
   text-align: center;
   color: var(--green);
   margin-bottom: 10px;
+  font-size: 2rem;
 }
 
 .subtitle {
@@ -139,6 +140,7 @@ h3, h4 {
   background: linear-gradient(135deg, var(--green), var(--yellow));
   color: #fff;
   text-align: center;
+  font-size: 1.1rem;
 }
 
 /* ================= CONTACT ================= */
@@ -210,6 +212,33 @@ footer {
 }
 
 /* ================= RESPONSIVE ================= */
+@media (max-width: 1024px) {
+  section {
+    padding: 50px 15px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+  }
+  
+  .offer {
+    font-size: 1rem;
+    padding: 25px;
+  }
+  
+  .map iframe {
+    height: 300px;
+  }
+}
+
 @media (max-width: 768px) {
   header {
     height: 100px;
@@ -218,6 +247,57 @@ footer {
   header img {
     height: 70px;
     max-width: 260px;
+  }
+
+  .grid {
+    gap: 16px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+  }
+
+  section {
+    padding: 35px 10px;
+  }
+
+  .offer {
+    font-size: 0.95rem;
+    padding: 20px;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .map iframe {
+    height: 250px;
+  }
+
+  .whatsapp-float {
+    width: 50px;
+    height: 50px;
+  }
+
+  .whatsapp-float img {
+    width: 24px;
+    height: 24px;
   }
 }
 </style>
@@ -279,7 +359,7 @@ footer {
 <div class="offer">
   <h3>🎉 Special Offer</h3>
   <p>
-    All items have 10% – 20% discount on market price and 50% – 60% free consultation for your home-related issues by Shri Balaji Traders Home Secure Team.
+    Get 10%–20% discount on all items and up to 60% FREE professional consultation for your home solutions with Shri Balaji Traders Home Secure Team!
   </p>
 </div>
 
