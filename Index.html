@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Shri Balaji Traders | Epoxy & Waterproofing</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root {
+  --yellow: #f1c40f;
+  --green: #1b9c52;
+  --logo-bg: #0e1a1a; /* Logo background color */
+  --light: #f5f7f8;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: var(--light);
+  color: #333;
+}
+
+/* ================= HEADER ================= */
+.site-header {
+  background: var(--logo-bg);
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid rgba(241,196,15,0.6);
+}
+
+/* LOGO */
+.site-header img {
+  height: 85px;
+  max-width: 340px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* ================= SECTIONS ================= */
+section {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  color: var(--green);
+  margin-bottom: 30px;
+}
+
+/* ================= CARDS ================= */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  background: #fff;
+  padding: 26px;
+  border-radius: 16px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+}
+
+.price {
+  color: var(--green);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* ================= OFFER ================= */
+.offer {
+  margin-top: 45px;
+  padding: 35px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, var(--green), var(--yellow));
+  color: #fff;
+  text-align: center;
+}
+
+/* ================= CONTACT ================= */
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+  gap: 28px;
+}
+
+.contact-card {
+  background: #fff;
+  padding: 35px;
+  border-radius: 18px;
+  box-shadow: 0 12px 25px rgba(0,0,0,.1);
+}
+
+.contact-item {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.map iframe {
+  width: 100%;
+  height: 360px;
+  border-radius: 18px;
+  border: 2px solid var(--green);
+}
+
+/* ================= FOOTER ================= */
+footer {
+  background: var(--logo-bg);
+  color: #ccc;
+  padding: 22px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+/* ================= WHATSAPP ================= */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: #fff;
+  padding: 14px 18px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 8px 25px rgba(0,0,0,.3);
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 768px) {
+  .site-header {
+    height: 100px;
+  }
+
+  .site-header img {
+    height: 70px;
+    max-width: 260px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <img src="logo.png" alt="Shri Balaji Traders Logo">
+</header>
+
+<!-- EPOXY FLOORING -->
+<section>
+<h2>Epoxy Flooring</h2>
+<div class="grid">
+  <div class="card">
+    <h3>3D Epoxy Flooring</h3>
+    <p>Premium artistic flooring</p>
+    <div class="price">₹350 / sq ft</div>
+  </div>
+
+  <div class="card">
+    <h3>Metallic Epoxy Flooring</h3>
+    <p>Luxury finish</p>
+    <div class="price">₹250 / sq ft</div>
+  </div>
+
+  <div class="card">
+    <h3>Industrial Epoxy Flooring</h3>
+    <p>Heavy-duty use</p>
+    <div class="price">₹110 / sq ft</div>
+  </div>
+</div>
+</section>
+
+<!-- WATERPROOFING -->
+<section>
+<h2>Waterproofing Solutions</h2>
+<div class="grid">
+  <div class="card"><h3>Epoxy Waterproofing</h3><div class="price">₹100 / sq ft</div></div>
+  <div class="card"><h3>Latex + Fibre Mesh</h3><div class="price">₹35 / sq ft</div></div>
+  <div class="card"><h3>Acrylic Waterproofing</h3><div class="price">₹35 / sq ft</div></div>
+  <div class="card"><h3>Transparent Waterproofing</h3><div class="price">₹30 / sq ft</div></div>
+</div>
+
+<div class="offer">
+  <h3>🎉 Special Offer</h3>
+  <p>
+    10% – 20% Discount on all items<br>
+    50% – 60% FREE Home Consultation by Shri Balaji Traders
+  </p>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+<h2>Contact Us</h2>
+
+<div class="contact-wrapper">
+  <div class="contact-card">
+    <div class="contact-item">
+      <strong>📍 Address</strong><br>
+      Chandak Chowk, Katni (M.P.) – 483501<br>
+      Sushila Parisar, Gohalpur, Jabalpur – 482501
+    </div>
+
+    <div class="contact-item">
+      <strong>📞 Phone</strong><br>
+      +91 7247478855
+    </div>
+
+    <div class="contact-item">
+      <strong>📧 Email</strong><br>
+      asoni55555@gmail.com
+    </div>
+
+    <div class="contact-item">
+      <strong>🏢 Services</strong><br>
+      Tile Chemicals, Adhesives, Grout, Tile Cleaner, Epoxy
+    </div>
+  </div>
+
+  <div class="map">
+    <iframe
+      src="https://www.google.com/maps?q=Chandak%20Chowk%20Katni%20Madhya%20Pradesh&output=embed"
+      loading="lazy">
+    </iframe>
+  </div>
+</div>
+</section>
+
+<footer>
+© 2026 Shri Balaji Traders. All Rights Reserved.
+</footer>
+
+<a href="https://wa.me/917247478855" class="whatsapp-float" target="_blank">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" width="22">
+  WhatsApp
+</a>
+
+</body>
+</html>
